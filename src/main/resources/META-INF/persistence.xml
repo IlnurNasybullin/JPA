@@ -9,6 +9,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://127.0.0.1:5432/JPA"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="password"/>
+            <property name="hibernate.id.new_generator_mappings" value="true" />
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/> <!-- none, 	create  -->
         </properties>

@@ -17,7 +17,7 @@ public class Main {
         transaction.begin();
         Flight flight = new FlightRandomGenerator().next();
         System.out.println(flight);
-        PersistTree persistTree = new PersistTree(manager, transaction);
+        PersistTree persistTree = new PersistTree(manager);
         persistTree.persist(flight);
 
         transaction.commit();

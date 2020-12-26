@@ -11,7 +11,7 @@ public class PersistTree {
 
     private final EntityManager manager;
 
-    public PersistTree(EntityManager manager, EntityTransaction transaction) {
+    public PersistTree(EntityManager manager) {
         this.manager = manager;
     }
 
